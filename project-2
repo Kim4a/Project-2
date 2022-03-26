@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "Revalia-Regular", sans-serif;
+    src: url(./fonts/Revalia-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../assets/fonts/Roboto-Italic.ttf) format("ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url(font.css);
+.header{
+    width: 100%;
+    box-sizing: border-box;
+    background: #EEEFF1;
+    padding: 20px;
+}
+
+.header_container{  
+    max-width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.header_title {
+    font-family: "Revalia-Regular", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    color: #34547a;
+    text-transform: uppercase;
+  }
+
+  .list_item {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .list_link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+
+  
+  
+  .block-1{
+    position: absolute;
+    width: 1920px;
+    height: 600px;
+    left: 0px;   
+    background: #EEEFF1;
+  }
+
+.design{
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  width: 541px;
+  height: 45px;
+  left: 974px;
+  top: 150px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 79px;
+  
+}
+.b3{
+  position: absolute;
+width: 540px;
+height: 67px;
+left: 975px;
+top: 260px;
+}
+
+.fish{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.b4{
+  display: inline-block;
+  border: 1px solid #000000;
+  position: absolute;
+  width: 225px;
+  height: 65px;
+  left: 975px;
+  top: 400px;
+  background-color:  #34547A;
+}
+
+.write{
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  position: absolute;
+  width: 140px;
+  height: 15px;
+  left: 1016px;
+  top: 507px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.block-2{
+  position: absolute;
+width: 403px;
+height: 30px;
+left: 758px;
+top: 812px;
+}
+
+.me{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+
+.fish-2{
+  font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+margin-top: 30px;
+}
+
+.block-3{
+  background-color: #34547A;
+  position: absolute;
+width: 1920px;
+height: 250px;
+left: 0px;
+top: 1059px;
+}
+
+.block-4{
+  position: absolute;
+width: 403px;
+height: 30px;
+left: 386px;
+top: 1513px;
+}
+
+.my{
+  font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header" id="main">
+        <div class="header_container">
+            <div class="header_container_item">
+                <h2 class="header_title">
+                    WD
+                </h2>
+            </div>
+            <div class="header_container_item">
+                <ul class="header_list">
+                    <li class="list_item">
+                        <a href="#main" class="list_link">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#about" class="list_link">
+                            Об авторе
+                        </a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#works" class="list_link">
+                            Работы
+                        </a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#process" class="list_link">
+                            Процесс
+                        </a>
+                    </li>
+                    <li class="list_item">
+                        <a href="#contact" class="list_link">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="block-1">
+        <div class="laptop">
+            
+        </div>
+        <div class="b2">
+            <p class="design">
+                Дизайн и верстка
+            </p>
+        </div>    
+        <div class="b3">
+            <p class="fish">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+            </p>
+        </div>    
+        <div class="b4">
+            <a href="#" class="write">
+                Напишите мне
+            </a>
+        </div>    
+    </div>
+    <div class="block-2">
+        <div class="about">
+            <h4 class="me">
+               Обо мне 
+            </h4>
+        </div>
+        <div class="b5">
+            <p class="fish-2">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века
+            </p>
+            
+        </div>
+    </div>
+    <div class="block-3">
+        
+    </div>
+    <div class="block-4">
+        <h4 class="my">
+            Мои навыки
+        </h4>
+    </div>
+</body>
+</html>
