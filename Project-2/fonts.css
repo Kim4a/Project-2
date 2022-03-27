@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Revalia-Regular", sans-serif;
+    src: url(./fonts/Revalia-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../assets/fonts/Roboto-Italic.ttf) format("ttf");
+}
